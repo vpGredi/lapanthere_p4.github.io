@@ -17,6 +17,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a:focus {
+    border: solid 2.5px #0004ff;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -270,6 +273,7 @@ a:hover {
 
 .voffset-lg {
     margin-top: 80px;
+    font-size: 20px;
 }
 
 .row-no-gutters {
@@ -325,7 +329,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -335,6 +339,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    border-bottom: solid 1px #F3976C;
 }
 
 .navbar-toggle {
@@ -360,6 +365,35 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.col-sm-12 p {
+    font-size: 1.6em;
+}
+.col-sm-4 h2 {
+    font-size: 1.4em;
+}
+.col-sm-4 p {
+    font-size: 0.9em;
+}
+.col-xs-12 p {
+    font-size: 1em;
+    font-style: italic;
+}
+.col-xs-12 .author {
+    font-style: normal;
+}
+.col-sm-12 h2 {
+    font-size: 2em;
+}
+.col-sm-6 h3 {
+    font-size: 1.8em;
+}
+.col-sm-6 p {
+    font-size: 1.5em;
+}
+.col-sm-6 a > img {
+    width: 100%;
 }
 
 @media (min-width: 768px) {
