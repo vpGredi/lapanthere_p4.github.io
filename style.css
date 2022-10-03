@@ -136,7 +136,7 @@ a:focus {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(240, 0, 0, 0.986);
 }
 
 .d-bloc .a-btn:hover,
@@ -153,7 +153,7 @@ a:focus {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: rgb(235, 51, 51);
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -331,7 +331,9 @@ a:focus {
     margin-top: 4px;
     font-size: 20px;
 }
-
+.nav > li a {
+    font-weight: 700;
+}
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -368,12 +370,15 @@ a:focus {
 
 .col-sm-12 p {
     font-size: 1.6em;
+    font-weight: 600;
+    text-decoration: underline;
 }
 .col-sm-4 h2 {
     font-size: 1.4em;
+    text-decoration: underline;
 }
 .col-sm-4 p {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .col-xs-12 p {
     font-size: 1em;
@@ -384,12 +389,14 @@ a:focus {
 }
 .col-sm-12 h2 {
     font-size: 2em;
+    text-decoration: underline;
 }
 .col-sm-6 h3 {
     font-size: 1.8em;
+    text-decoration: underline;
 }
 .col-sm-6 p {
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 .col-sm-6 a > img {
     width: 100%;
@@ -684,7 +691,6 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
 }
 
 .container {
@@ -721,6 +727,7 @@ p {
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
+    color: #ff00aa;
 }
 
 .cta-hero {
@@ -753,10 +760,6 @@ h3 {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
-}
-
-h1 {
-    color: #333333!important;
 }
 
 h4 {
@@ -808,7 +811,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: blanchedalmond;
 }
 
 .btn-atomic-tangerine {
@@ -1066,10 +1069,24 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .col-sm-3 {
+        flex-direction: row;
+    }
 }
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .social {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .col-sm-3 {
+        flex-direction: row;
     }
 }
